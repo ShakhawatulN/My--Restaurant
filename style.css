@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+/* header */
+/* font-family: 'Roboto', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+/* p */
+/* font-family: 'Open Sans', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+/* H2 */
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+
+:root {
+   --color: #22CC2B;
+}
+
+.home .box {
+   background: url("home.jpg") no-repeat;
+   background-size: cover;
+   text-transform: uppercase;
+   color: white;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.logo {
+   position: absolute;
+   width: 9rem;
+}
+
+.home .box h2 {
+   font-size: 2.5rem;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home .box h1 {
+   text-align: center;
+   font-size: 6rem;
+   padding: 0.5rem 0 2rem 0;
+   margin: 0 5rem;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+}
+
+.home .box button {
+   background-color: var(--color);
+   color: white;
+   padding: 1rem 2rem;
+   text-transform: uppercase;
+   border: none;
+}
+
+.menu {
+   text-align: center;
+   margin-bottom: 13rem;
+}
+
+.menu h1 {
+   font-size: 4rem;
+   text-transform: uppercase;
+   color: red;
+   margin: 13rem 2rem 3rem 2rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.menu .menu-p {
+   font-size: 2.2rem;
+   margin-bottom: 9rem;
+   padding: 0 2rem;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.menu .container {
+   display: grid;
+   grid-gap: 2rem;
+   grid-template-columns: auto auto;
+}
+
+.menu .container div {
+   margin-bottom: 3rem;
+}
+
+.menu .container div img {
+   margin: 3rem;
+}
+
+.menu .container div img:hover {
+   transform: scale(1.05);
+   transition-duration: 0.5s;
+}
+
+.menu .container div h2 {
+   font-size: 4rem;
+   margin: 2.5rem 0 1rem 0;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.menu .container div p {
+   font-size: 2.1rem;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.menu .order {
+   font-size: 2rem;
+   color: red;
+   background-color: white;
+   text-transform: uppercase;
+   border: 0.3rem solid red;
+   padding: 2rem 4rem;
+}
+
+.menu .order:hover {
+   background-color: red;
+   color: white;
+   transition-duration: 0.5s;
+}
+
+.offer {
+   color: white;
+   background: url("bg-img.jpg") no-repeat;
+   background-size: cover;
+}
+
+.offer div {
+   margin-left: 3rem;
+   padding-top: 7rem;
+   width: 65vw;
+}
+
+.h3 {
+   background-color: var(--color);
+   color: white;
+   font-size: 2rem;
+   display: inline-block;
+   padding: 0.5rem 0.8rem;
+   margin: 1rem 0;
+   text-transform: uppercase;
+}
+
+.offer div h1 {
+   font-size: 5rem;
+   padding: 2rem 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.offer div p {
+   font-size: 2rem;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.offer div button {
+   color: white;
+   border: 0.3rem solid white;
+   padding: 2rem 4rem;
+   margin-bottom: 7rem;
+   background-color: transparent;
+}
+
+.offer div button:hover {
+   background-color: white;
+   color: black;
+   transition-duration: 0.5s;
+}
+
+.facilities {
+   background-color: var(--color);
+   display: grid;
+   grid-gap: 2rem;
+   grid-template-columns: auto auto;
+   text-align: center;
+   padding: 8rem 0;
+   color: white;
+}
+
+.facilities div h1 {
+   font-size: 3rem;
+   margin: 2.5rem 0;
+   font-family: 'Roboto', sans-serif;
+}
+
+.facilities div p {
+   font-size: 2.5rem;
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+.contact {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #3A3B3C;
+   color: white;
+}
+
+.contact .container {
+   padding: 5rem 3rem;
+}
+
+.contact .container h3 {
+   padding: 1rem 1.5rem;
+}
+
+.contact .container h1 {
+   font-size: 4rem;
+   margin-top: 1rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.contact .container .cont-box .box {
+   display: flex;
+   margin: 3rem 0;
+}
+
+.contact .container .cont-box .box img {
+   width: 7rem;
+   margin-top: 2.1rem;
+   margin-right: 4rem;
+}
+
+.contact .container .cont-box .box p {
+   font-size: 2rem;
+   padding: 0.5rem 0;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.contact .container a img {
+   width: 4rem;
+   background-color: white;
+   margin: 0 1rem;
+}
+
+.contact .container2 .pizza-pic {
+   width: 50vw;
+}
+
+footer {
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 2rem 2rem;
+   font-size: 2rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+footer img {
+   padding-top: 1.5rem;
+}
+
+footer span {
+   color: var(--color);
+}
+
+
+/* order section */
+.order-head {
+   background: url("bg-img.jpg") no-repeat;
+   background-size: cover;
+   color: white;
+   min-height: 50vh;
+}
+
+.order-head .order-head-div {
+   min-height: 45vh;
+   padding: 0 4rem;
+   max-width: 80vw;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.order-head .order-head-div h3 {
+   text-transform: uppercase;
+   font-size: 2.5rem;
+   padding: 4rem 0 1rem 0;
+}
+
+.order-head .order-head-div h1 {
+   text-transform: uppercase;
+   font-size: 4.5rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.order-head .order-head-div p {
+   font-size: 2rem;
+   font-family: 'Open Sans', sans-serif;
+}
+
+.reservation {
+   padding: 2rem 4rem;
+}
+
+.reservation h1 {
+   font-size: 5rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.hr {
+   width: 20vw;
+   height: 0.5rem;
+   background-color: red;
+   border: none;
+   margin: 2rem 0;
+}
+
+.reservation p {
+   font-size: 2rem;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.con-box {
+   display: flex;
+}
+
+.con-box .con-one {
+   padding: 8rem;
+}
+
+.con-box .con-two {
+   width: 40vw;
+   padding-left: 5rem;
+}
+
+.con-box h2 {
+   padding: 2rem 0;
+   font-size: 3.5rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.con-box li {
+   font-size: 2.5rem;
+   padding: 1rem 0;
+   list-style: none;
+   font-family: 'Open Sans', sans-serif;
+   color: grey;
+}
+
+.con-two .inp {
+   width: 45vw;
+   height: 5.5rem;
+   padding: 1rem;
+   margin-top: 2rem;
+   font-size: 2.5rem;
+}
+
+.con-two .inp2 {
+   height: 12rem;
+   font-size: 2.5rem;
+}
+
+.con-two input::placeholder {
+   font-size: 2.5rem;
+}
+
+.con-two textarea::placeholder {
+   font-size: 2.5rem;
+}
+
+.con-two .inp-btn {
+   margin: 2rem 0;
+   padding: 1.5rem 2rem;
+   font-size: 2rem;
+   background-color: red;
+   color: white;
+   border: 0.2rem solid red;
+}
+
+.con-two .inp-btn:hover {
+   background-color: white;
+   border: 0.2rem solid red;
+   color: black;
+   transition-duration: 0.5s;
+}
+
+
+/*menu sectoon*/
+.center {
+   text-align: center;
+}
+
+.main-box {
+   text-align: center;
+   margin: 2rem 4rem;
+   background-color: whitesmoke;
+}
+
+.main-box .btn {
+   margin: 2rem 0;
+   padding: 1.5rem 2rem;
+   font-size: 2rem;
+   background-color: red;
+   color: white;
+   border: 0.2rem solid red;
+   text-transform: uppercase
+}
+
+.main-box h1 {
+   font-size: 4rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main-box p {
+   font-size: 2rem;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.main-box h3 {
+   background-color: red;
+   color: white;
+   font-size: 2rem;
+   display: inline-block;
+   padding: 0.5rem 0.8rem;
+   margin: 1rem 0;
+   text-transform: uppercase;
+}
+
+.main-box .btn:hover {
+   background-color: white;
+   border: 0.2rem solid red;
+   color: black;
+   transition-duration: 0.5s;
+}
+
+.sub-main-box {
+   display: flex;
+   align-items: center;
+}
+
+.main-box .sub-main-box .a {
+   display: flex;
+}
+
+.main-box .sub-main-box .a img {
+   width: 9rem;
+   border-radius: 50%;
+   margin: 2rem;
+}
+
+.main-box .sub-main-box .a img:hover {
+   transform: scale(1.2);
+   transition-duration: 0.2s;
+}
+
+.main-box .sub-main-box .a div h2 {
+   font-size: 2.5rem;
+   text-align: start;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-box .sub-main-box .a div p {
+   font-size: 1.5rem;
+   text-align: start;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.main-box .sub-main-box .a div {
+   margin-top: 2rem;
+   width: 50vw;
+}
+
+.main-box .sub-main-box .a div:hover {
+   color: red;
+   transition-duration: 0.1s;
+}
+
+.main-box .sub-main-box .rate {
+   position: absolute;
+   right: 6rem;
+}
+
+.main-box .sub-main-box .rate:hover {
+   color: red;
+   transition-duration: 0.1s;
+}
+
+.main-box-two .btn button {
+   border: none;
+   border-bottom: 0.3rem solid #DADADA;
+   font-size: 2.5rem;
+}
+
+.main-box-two {
+   text-align: center;
+}
+
+.main-box-two h1 {
+   font-size: 4rem;
+   font-family: 'Roboto', sans-serif;
+}
+
+.main-box-two p {
+   font-size: 2rem;
+   padding: 2rem 0;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+.main-box-two h3 {
+   background-color: red;
+   color: white;
+   font-size: 2rem;
+   display: inline-block;
+   padding: 0.5rem 0.8rem;
+   margin: 1rem 0;
+   text-transform: uppercase;
+}
+
+.main-box-two .btn button {
+   margin: 2rem 0;
+   padding: 1rem 2rem;
+   background-color: white;
+}
+
+
+.main-box-two .btn .btn-on {
+   border-left: 0.1rem solid red;
+   border-color: red;
+}
+
+.sub-main-box-two {
+   display: flex;
+   width: 100vw;
+   scroll-behavior: smooth;
+   overflow: hidden;
+}
+
+#btn-box {
+   display: flex;
+   justify-content: space-between;
+}
+
+#btn-box div hr {
+   width: 95%;
+   text-align: center;
+   margin-left: 2.5%;
+}
+
+#btn-box div h2 {
+   font-size: 2.5rem;
+   text-align: left;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+
+#btn-box div p {
+   font-size: 2rem;
+   text-align: left;
+   padding-right: 3rem;
+   font-family: 'Open Sans', sans-serif;
+   color: gray;
+}
+
+#btn-box .sub-btn-box {
+   display: flex;
+   padding: 1rem 4rem;
+   width: 50vw;
+}
+
+#btn-box .sub-btn-box .rate {
+   font-size: 2rem;
+   text-align: right;
+   padding-top: 3rem;
+}
+
+
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+   .home .box {
+      background: url("home2.jpg") no-repeat;
+      background-size: cover;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   .menu .container {
+      grid-template-columns: auto;
+   }
+}
+
+@media screen and (max-width: 450px) {
+   .facilities {
+      grid-template-columns: auto;
+   }
+
+   .contact {
+      flex-direction: column;
+      align-items: normal;
+   }
+
+   .contact .container {
+      padding-left: 6rem;
+   }
+
+   .contact .container2 .pizza-pic {
+      width: 100vw;
+   }
+
+   .con-box {
+      flex-direction: column;
+      text-align: center;
+   }
+
+   .con-box .con-two {
+      width: 100vw;
+      padding-left: 0;
+   }
+
+   .con-two .inp {
+      width: 80vw;
+      height: 5.5rem;
+      padding: 1rem;
+      margin-top: 2rem;
+   }
+
+   .con-two .inp2 {
+      height: 12rem;
+   }
+
+   #btn-box {
+      flex-direction: column;
+   }
+
+   .sub-main-box-two {
+      display: flex;
+   }
+
+   .sub-main-box-two #btn-box .sub-btn-box {
+      width: 100vw;
+   }
+}
